@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bold' 'Monaco ';
+    
+}
+
+body,html{
+    height: 90vh;
+}
+
+.container{
+    height: 50%;
+    width: 500px;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(197, 194, 194, 0.849);
+    color: rgb(12, 11, 11);
+}
+.container1{
+    height: 40%;
+    width: 500px;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 134, 233, 0.849);
+    color: #fff;
+}
+
+h1{
+    margin: 0.5em;
+    text-align: center;
+}
+h3{
+    margin: 0.5em;
+    text-align: center;
+}
+h2{
+    margin: 0.5em;
+    text-align: center;
+}
+h4{
+    margin: 0.5em;
+    
+    text-align: center;
+    color: rgb(43, 134, 219);
+}
+a{
+    text-align: center;
+}
+
+button{
+    border: 1px solid rgb(153, 103, 103);
+    height: 50%;
+    width: 100px;
+    text-align: center;  
+    margin-bottom: 2em;
+    line-height: 1em;
+    padding: 0.7em;
+    font-size: 1em;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: rgb(161, 216, 248);
+    /* box-shadow: 0px 2px 5px rgb(84, 211, 250); */
+}
